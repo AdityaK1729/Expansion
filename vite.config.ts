@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // IMPORTANT: Replace 'REPO_NAME' with your actual GitHub repository name
-  // Example: If your repo is github.com/username/my-game, this should be '/my-game/'
-  base: '/Expansion/', 
+  // Use relative base path so it works on any subfolder (GitHub Pages) 
+  // without needing to specify the exact repo name.
+  base: './', 
 })
