@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
   // Use relative base path so it works on any subfolder (GitHub Pages) 
   // without needing to specify the exact repo name.
-  base: './', 
+  base: '/Expansion/', 
 })
